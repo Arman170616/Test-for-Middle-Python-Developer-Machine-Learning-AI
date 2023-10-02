@@ -1,0 +1,8 @@
+1. We create an SQLite database named books.db and define a books table within it.
+
+2. The script defines functions to add, retrieve, update, and delete books in the database. These functions use SQL queries to interact with the database.
+
+3. In the __main__ block, we provide a simple command-line interface for the user to interact with the database. The user can choose from various options to perform database operations.
+
+
+This structure is chosen because it provides a basic and organized way to interact with a simple database for managing books. The script allows the user to perform all the CRUD (Create, Read, Update, Delete) operations on the books in the database using a user-friendly command-line interface.

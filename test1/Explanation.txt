@@ -1,0 +1,14 @@
+1. We start by importing necessary libraries, including TensorFlow and Keras for building and training the neural network.
+
+2. We load the MNIST dataset and preprocess it by normalizing pixel values to be in the range [0, 1].
+
+3. We define the neural network model using the Sequential API, consisting of a Flatten layer to flatten the input images, a fully connected hidden layer with 128 units and ReLU activation, a dropout layer to prevent overfitting, and an output layer with 10 units for classification.
+
+4. The model is compiled using the Adam optimizer, sparse categorical cross-entropy loss (suitable for integer labels), and accuracy as the evaluation metric.
+
+5. We train the model on the training data for a specified number of epochs (10 in this case) and validate it on the test data.
+
+6. Finally, we evaluate the model's performance on the test dataset and plot the training history for visualization.
+
+Kaggle link
+https://www.kaggle.com/code/arman170616/train-mnist-neural-network 
